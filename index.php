@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <link id="theme-style" rel="stylesheet" href="">
+</head>
+<body>
+
+    <section class="s1">
+        <div class="main-container">
+            <div class="greeting-wrapper">
+                <h1>Hi, I'm Felicity Essien</h1>
+            </div>
+            <!-- introduction deiv -->
+            <div class="intro-wrapper">
+                <div class="nav-wrapper">
+                    <div class="dots-wrapper">
+                       <div id="dot1" class="browser-dot"></div>
+                       <div id="dot2" class="browser-dot"></div>
+                       <div id="dot3" class="browser-dot"></div>
+                    </div>
+                    <ul id="navigation">
+                        <li><a href="pages/contact.php">Contact</a></li>
+                        <li><a href="#">Jobs</a></li>
+                    </ul>
+                </div>
+                <!-- left column -->
+                <div class="left-column">
+                   <img id="profile-pic" src="images/IMG-20191201-WA0024.jpg" alt="" srcset="">
+                    <h5 style="text-align: center; line-height: 0;">personalize theme</h5>
+
+                    <div id="theme-wrapper">
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+                        
+                    </div>
+                    <p id="settings-note">*Theme settings will be saved for <br> your next visit</p>
+                </div>
+                <!-- right column -->
+                <div class="right-column">
+
+                    <div id="preview-shadow">
+                        <div class="preview">
+                            <div class="corner" id="corner-tl"></div>
+                            <div class="corner" id="corner-tr"></div>
+                            <h3>What I do</h3>
+                            <p>I develop static and dynamic websites, I develop simple Ecommerce web apps for small scale businesses. And hey, i make really smart wordpress websites.</p>
+                            <div class="corner" id="corner-br"></div>
+                            <div class="corner" id="corner-bl"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <!-- ends intro -->
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="s2">
+        <div class="main-container">
+            <div class="about-wrapper">
+                <div class="aboutme">
+                    <h4>Interesting Facts About Me</h4>
+                    <p>I'll invest all my resources into your project and deliver before time😊</p>
+                    <p>I build projects just for fun because with programming i can create new awesome problem solving web apps and web sites. </p>
+                    <p>I also create simple user friendly e-commerce web apps  for small scale businesses. Feel free to get yours at an affordable rate</p> <hr>
+                    <h4>TOP EXPERTISE</h4>
+                    <p>Full stack developer with priamry focus on Javascript and Node.js <a target="_blank" style="color: lightcoral;" href="resources/access.pdf">Download Resume</a></p>
+
+                    <div id="skills">
+                        <ul>
+                            <li>wordpress</li>
+                            <li>Node.js</li>
+                            <li>Python</li>
+                            <li>Javascript</li>
+                        </ul>
+                        <ul>
+                            <li>Html/Css</li>
+                            <li>Php</li>
+                            <li>Mysql</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+                </div>
+
+                    <div class="social-links">
+                        <img id="social-img" src="images/human.jpg" alt="">
+                        <h3>Follow me on Twitter and Youtube</h3>
+                        <a target="_blank" href="#">Youtube: @ Felicity A.</a> <br>
+                        <a target="_blank" href="#">Twitter: @ Felicity A.</a>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio -->
+    <section class="s1">
+        <div class="main-container">
+            <h3 style="text-align: center;">My Completed projects</h3>
+            <div class="post-wrapper">
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/IMG-20191201-WA0024.jpg" alt="">
+                        <div class="post-preview">
+                            <h6 class="post-title">post <Title></Title></h6>
+                            <p class="post-intro">E-commerce store with paypal payent integration and guest user shopping</p> <br>
+                            <a href="shopping cart/index.php">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/javascript.png" alt="">
+                        <div class="post-preview">
+                            <h6 class="post-title">post <Title></Title></h6>
+                            <p class="post-intro">A tic-tac=toe game built with core Javascript, bo frameworks</p> <br><a href="#">Read more</a>
+                    </div>
+                </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/pexels-luis-gomes-546819.jpg" alt="">
+                        <div class="post-preview">
+                            <h6 class="post-title">post <Title></Title></h6>
+                            <p class="post-intro">A landing page for a hotel <br></p> <br>
+                            <a href="#">Read more</a>
+                        </div>
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section class="s2">
+        <div id="footer" style="border: 1px solid black; width: 100%;" class="main-container">
+            &copy; 2020 &nbsp; &nbsp; Felicity Essien
+        </div>
+    </section>
+
+    <!-- footer -->
+    
+    <!-- <div class="footer s1 ">&copy; 2020</div> -->
+    
+    
+
+
+
+    <script src="js/themes.js"></script>
+</body>
+</html>
