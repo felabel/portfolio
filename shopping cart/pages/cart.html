@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="name">Zshops</div>
+        
+        <div class="links">
+            <a href="#" ><img src="../images/carrrt.png" alt="Cart" srcset="" width="40px" height="30px"></a>
+            <a href="#">Home</a>
+
+    </div>
+    </div> 
+
+    <section class="container content-section">
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-item cart-header cart-column">PRICE</span>
+            <span class="cart-item cart-header cart-column">QUANTITY</span>
+        </div>
+        <!-- cart items -->
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img src="../images/pro2.jpeg" alt="" class="cart-item-image" width="100" height="100">
+                    <span class="cart-item-title">Body spray</span>
+                </div>
+                <span class="cart-price cart-column">72.56</span>
+                <div class="cart-quantity cart-column">
+                    <input type="number" name="" id=""value="1" class="cart-quantity-input" ><button class="btn-danger">REMOVE</button>
+                </div>
+            </div>
+        </div>
+            
+            <!-- second item -->
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img src="../images/pro2.jpeg" alt="" class="cart-item-image" width="100" height="100">
+                    <span class="cart-item-title">Body spray</span>
+                </div>
+                <span class="cart-price cart-column">72.56</span>
+                <div class="cart-quantity cart-column">
+                    <input type="number" name="" id=""value="1" class="cart-quantity-input"><button class="btn-danger">REMOVE</button>
+                </div>
+            </div>
+        </div>
+            <!-- second row ends -->
+        <div class="cart-items"> 
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img src="../images/pro3.png" alt="" class="cart-item-image" width="100" height="100">
+                    <span class="cart-item-title">Body spray</span>
+                </div>
+                <span class="cart-price cart-column">72.56</span>
+                <div class="cart-quantity cart-column">
+                    <input type="number" name="" id=""value="1" class="cart-quantity-input"><button class="btn-danger">REMOVE</button>
+                </div>
+            </div>
+        </div>
+    
+         
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$546.98</span>
+            
+        </div><br><br><br>
+        <button class="btncart btn btn-primary btn-purchase">Purchase</button>
+
+    </section>
+    
+      <script src="../js/cart.js" async></script>
+      <script src="../js/index.js" async></script>
+</body>
+</html>

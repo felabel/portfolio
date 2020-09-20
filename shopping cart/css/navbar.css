@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box; padding: 0; margin: 0; border: 0; font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid orangered;
+    padding: 10px;
+}
+.links{float: right; position: relative; bottom: 37px; display: flex; }
+.navbar a{text-decoration: none; display: inline; 
+margin: 0px 10px;
+}
+.reg{display: none;}
+.name{width: 100px; height: auto;  font-size: 1.2rem; font-weight: bolder; position: relative; bottom: 4px;}
+.name::first-letter{color: orangered; font-style: italic; font-size: 2rem;}
+.navbar input{border: 1px ridge grey; width: 300px; height: 25px;border-radius: 5px;}
+.search{position: relative; left:20% ; bottom: 35px;}
+#btn{width: 60px!important; padding: 3px;}
+/* products container */
+.container{width: 100%; height: 1000px;border: 2px solid orangered;position: relative; top: 20px; margin: 0px;padding: 0;}
+.menu{width: 20%; height: 700px; background-color: white; position: absolute;}
+.products{position: absolute; width: 60%;  height: auto; left: 20%;}
+.adverts{width: 20%; position: absolute;background-color: white; left: 80%; height: 700px;}
+/* first line of products */
+.line1{width: 100%;
+     /* background-color: palegoldenrod; */
+      height: 280px; position: relative; display: flex;}
+.flexitem{
+    display: flex; padding: 20px;width: 100%;}
+.flexitem img{width: 180px; height: 180px; margin-right: 10px; box-shadow: 10px 10px 5px grey;}
+/* add to cart and buy buttons */
+.btncart, .btnorder{width:100px; height: 30px; padding: 3px; background-color: white; color: orangered; border: 1px solid orangered; font-size: 1rem; margin-top: 5px;}
+.btnorder{width: 60px!important; margin-left: 16px!important;}
+.flexitem p{padding: 0 ; margin-top: 5px; width: 25%; height: 30px; border: 1px solid green ;}
+.names{width: 110px!important; padding: 5px; margin-top: -30px!important; margin-left: 70px!important;}
+.btnorder:hover, .btncart:hover {background-color: orangered;color: white;}
+.regs:hover .reg{display: block;}
+#user :hover{background-color: yellow;}
+.reg{background-color: white; top: 10px; position: fixed;width: 150px; height: 60px; top: 45px; z-index: 1; right: -20px; font-size: 1.2rem; color: white; box-shadow: 7px 7px 5px grey;background-color: orangered;}
+.reg a{
+color: white; position: relative; width: 100%; height: 30px; display: block;border-bottom: 1px solid white;padding-top: 10!important;}
+#sign{border-bottom: none!important;}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/carrt.css">
+    <!-- <link rel="stylesheet" href="css/cart.css"> -->
+    <!-- <script src="js/cart.js" async></script> -->
+</head>
+<body>
+    <!-- navbar section -->
+    <div class="navbar">
+        <div class="name">Zshops</div>
+        <span class="search"><input type="text" id="sech"><input type="button" value="search" id="btn"></span>
+        <div class="links">
+            <a href="#"  ><img onclick="show()" src="images/carrrt.png" alt="Cart"  srcset="" width="40px" height="30px"></a>
+
+            <div class="regs">
+                <a href="#" id="user"><img src="images/propic.png" width="30px" height="30px"></a>
+                <div class="reg">
+                    <a href="#" id="register">register</a> <a      href="#" id="sign">Sign in</a>
+                </div>    
+        </div>
+    </div>
+    </div>
+    <!-- body section -->
+    <div class="container">
+        <div class="menu"></div>
+        <div class="products">
+            <!-- first group of products -->
+            <div class="line1 flexcontainer">
+                <div class="flexitem">
+                   <div id="pro1" class="pro1"> <img src="images/pro2.jpeg" alt="" srcset=""  class="shop-item-image">
+                    <div class="addcart">
+                    <p class="price">$76</p> <p class="names">pink</p>
+                    
+                    <button class="btncart addtocart">Add to Cart</button>
+                    <button class="btnorder">Order</button>
+                    </div>
+                  </div>
+                    <div id="pro2" class="pro2"><img src="images/pro3.png" alt="" srcset="" class="shop-item-image">
+                        <div class="addcart">
+                        <p class="price">$76</p>
+                        <p class="names">scent</p>
+                        
+                    <button class="btncart addtocart">Add to Cart</button>
+                    <button class="btnorder">Order</button></div>
+                      </div>
+                    <div id="pro3"><img src="images/images (73).jpeg" alt="" srcset="" class="shop-item-image">
+                        <div class="addcart">
+                        <p class="price">$76</p>
+                        <p class="names">king</p>
+                        
+                    <button class="btncart addtocart">Add to Cart</button>
+                    <button class="btnorder">Order</button></div>
+                </div>
+                    <div class="pro4"><img src="images/images (72) - Copy.jpeg" alt="" srcset=""><p class="price">$76</p>
+                        <p class="names">perfume</p>
+                    <button class="btncart addtocart">Add to Cart</button>
+                    <button class="btnorder">Order</button></div>
+                    
+                </div>
+            </div closes line of products>
+            <div class="line1 flexcontainer">
+                <div class="flexitem">
+                   <div id="pro1"> <img src="images/pro2.jpeg" alt="" srcset="">
+                    <p class="price">$76</p>
+                    <p class="names">perfume</p>
+                    <button class="btncart addtocart">Add to Cart</button>
+                    <button class="btnorder">Order</button>
+                  </div>
+                    <div id="pro2"><img src="images/pro3.png" alt="" srcset=""><p class="price">$76</p>
+                        <p class="names">perfume</p>
+                    <button class="btncart addtocart" onclick="add()">Add to Cart</button>
+                    <button class="btnorder">Order</button></div>
+                    <div id="pro3"><img src="images/images (73).jpeg" alt="" srcset=""><p class="price">$76</p>
+                        <p class="names">perfume</p>
+                    <button class="btncart addtocart">Add to Cart</button>
+                    <button class="btnorder">Order</button></div>
+                    <div class="pro4"><img src="images/images (72) - Copy.jpeg" alt="" srcset=""><p class="price">$76</p>
+                        <p class="names">perfume</p>
+                    <button class="btncart">Add to Cart</button>
+                    <button class="btnorder">Order</button></div>
+                    
+                </div>
+            </div closes line of products>
+            <div class="line1 flexcontainer">
+                <div class="flexitem">
+                   <div id="pro1"> <img src="images/pro2.jpeg" alt="" srcset="">
+                    <p class="price">$76</p><p class="names">perfume</p>
+                    <button class="btncart addtocart">Add to Cart</button>
+                    <button class="btnorder">Order</button>
+                  </div>
+                    <div id="pro2"><img src="images/pro3.png" alt="" srcset=""><p class="price">$76</p><p class="names">perfume</p>
+                    <button class="btncart addtocart">Add to Cart</button>
+                    <button class="btnorder">Order</button></div>
+                    <div id="pro3"><img src="images/images (73).jpeg" alt="" srcset=""><p class="price">$76</p><p class="names">perfume</p>
+                    <button class="btncart addtocart">Add to Cart</button>
+                    <button class="btnorder">Order</button></div>
+                    <div class="pro4"><img src="images/images (72) - Copy.jpeg" alt="" srcset=""><p class="price">$76</p><p class="names">perfume</p>
+                    <button class="btncart addtocart">Add to Cart</button>
+                    <button class="btnorder">Order</button></div>
+                    
+                </div>
+            </div closes line of products>
+            
+        </div>
+        <div class="adverts"></div>
+    </div>
+  <br>
+    <!-- cart section -->
+    <section class="containers content-section" id="cartdiv">
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-item cart-header cart-column">PRICE</span>
+            <span class="cart-item cart-header cart-column">QUANTITY</span>
+        </div>
+        <!-- cart items -->
+        <div class="cart-items">
+           
+        </div>
+    
+         
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">0</span>
+            
+        </div><br><br><br>
+        <button class="btncart btn btn-primary btn-purchase">Purchase</button>
+
+    </section>
+    <!-- <script src="js/index.js" async></script> -->
+    <script src="js/cart.js" async></script>
+
+
+
+
+ 
+</body>
+</html>

@@ -1,0 +1,14 @@
+.container{
+    width: 45%; height: 500px; box-shadow: 10px  10px 7px  grey; position: relative; margin: auto; background-color: or;
+}
+.cart-header{width: 180px; height: 30x; display: inline-block; text-align: center; border-bottom: 2px solid orangered; margin: 10px;}
+.cart-quantity input{width: 30px; margin-right: 30px; border: 1px solid grey;}
+.cart-row{display: flex;}
+.cart-item-title{ margin-top: 30px; margin-left: 10px; position: absolute; width: 120px; height: 30px;}
+.cart-quantity{position: absolute; right: 30px; margin-top: 30px;}
+.cart-item-mage{margin-right: 5px; position: relative;}
+.cart-price{position: absolute; right: 300px; margin-top: 30px;}
+.cart-total{right: 30px; position: absolute; background-color: orangered; width: 150px; height: 40px;}
+.cart-total-title{margin-right: 30px; position: relative;}
+.btn-purchase{ position: absolute!important; right: 30px!important; }
+.cart-items{position: relative;}
