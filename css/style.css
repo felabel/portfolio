@@ -180,5 +180,8 @@ h6{font-size: 1rem;}
   .right-column{
       justify-content: center;
   }
-
+  .myname{
+      Font-size : 1.5rem;
+  }
+ 
 }
