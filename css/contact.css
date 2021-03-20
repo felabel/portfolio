@@ -1,0 +1,20 @@
+
+#contact-form{
+    display: block; max-width: 600px; margin: 0 auto;
+    border: 1px solid var(--borderColor); padding: 15px; max-height: 1000px;
+    border-radius: 5px; background-color: var(--mainColor);
+    margin-bottom: 50px; 
+}
+#contact-form label{line-height: 2.7rem;}
+.input-field{
+    width: 100%; padding: 10px 0; background-color: var(--secondaryColor);
+    border-radius: 5px; border: 1px solid var(--borderColor);
+    font-size: 0.88rem;
+}
+input{background-color: white;}
+
+.submit-btn{
+    margin-top: 10px; width: 100%; padding: 10px 0;
+    color: #fff; background-color: var(--btnColor);
+    border: none;
+}
