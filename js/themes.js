@@ -1,4 +1,4 @@
-alert ("hey");
+
 var theme = localStorage.getItem('theme');
 
 if(theme == null){
